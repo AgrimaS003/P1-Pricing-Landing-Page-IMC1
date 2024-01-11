@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Landing Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Novels Library</h1>
+    </header>
+
+    <main>
+        <section class="novel" onmouseover="showBookName(1)" onmouseout="hideBookName(1)">
+            <img src="https://i.pinimg.com/236x/79/59/81/79598158e033d447ab5f5cccbc1f01d6.jpg" alt="Falling in Love Again by Ruskin Bond">
+            <div class="novel-details">
+                <h2>Falling in Love Again</h2>
+                <p>Author: Ruskin Bond</p>
+                <p>Genre: Christianity</p>
+                <p id="bookName1" class="hidden">Falling in Love Again by Ruskin Bond</p>
+                <p class="price">Price: <span class="currency" id="currency1">INR</span> 229.00</p>
+                <button onclick="toggleDescription(1)">Read More</button>
+                <p class="hidden" id="description1">Reading books is a kind of enjoyment. Reading books is a good habit. We bring you a different kinds of books. You can carry this book where ever you want. It is easy to carry. It can be an ideal gift to yourself and to your loved ones. Care instruction keep away from fire.</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(2)" onmouseout="hideBookName(2)">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91ko4l7ko-L._AC_UF350,350_QL50_.jpg" alt="No Man is an Island by Ruskin Bond">
+            <div class="novel-details">
+                <h2>No Man is an Island</h2>
+                <p>Author: Ruskin Bond</p>
+                <p>Genre: Fiction And Related Items</p>
+                <p id="bookName2" class="hidden">No Man is an Island by Ruskin Bond</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 268.00</p>
+                <button onclick="toggleDescription(2)">Read More</button>
+                <p class="hidden" id="description2">And the land stretched out before me, and the years fell away, And I was a boy again, And the friends of my youth were there beside me, And nothing had changed. Told in Ruskin Bond's simple yet poignant style, the stories and poems in No Man Is an Island thoughtfully explore the many shades of friendship and camaraderie. Featuring classic tales such as 'The Woman on Platform No. 8', in which a mysterious stranger befriends a young boy, and 'The Crooked Tree', in which a writer and a hawker form an unlikely bond, this heart-warming collection is a must-read.</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(3)" onmouseout="hideBookName(3)">
+            <img src="https://cdn.kobo.com/book-images/4e1af857-e0e8-45fa-8922-e4bff584beca/1200/1200/False/to-kill-a-mockingbird-4.jpg" alt="To Kill a Mockingbird by Harper Lee">
+            <div class="novel-details">
+                <h2>To Kill a Mockingbird</h2>
+                <p>Author: Harper Lee</p>
+                <p>Genre: Southern Gothic</p>
+                <p id="bookName2" class="hidden">To Kill a Mockingbird by Harper Lee</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 225.00</p>
+                <button onclick="toggleDescription(3)">Read More</button>
+                <p class="hidden" id="description3">'Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.'A lawyer's advice to his children as he defends the real mockingbird of Harper Lee's classic novel - a black man falsely charged with the rape of a white girl.</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(4)" onmouseout="hideBookName(4)">
+            <img src="https://cdn.kobo.com/book-images/959ac020-0e03-4207-88ff-1108663e2310/353/569/90/False/thirteen-reasons-why.jpg" alt="Thirteen Reasons Why by Jay Asher">
+            <div class="novel-details">
+                <h2>Thirteen Reasons Why</h2>
+                <p>Author: Jay Asher</p>
+                <p>Genre: Psychological Thriller</p>
+                <p id="bookName2" class="hidden">Thirteen Reasons Why by Jay Asher</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 309.00</p>
+                <button onclick="toggleDescription(4)">Read More</button>
+                <p class="hidden" id="description4">You can't stop the future. You can't rewind the past. The only way to learn the secret . . . is to press play. Clay Jensen returns home from school one day to find a mysterious box with his name on it, outside his front door. Inside he discovers a series of cassette tapes recorded by Hannah Baker - his classmate and crush. Only, she committed suicide two weeks earlier. On the first tape, Hannah explains that there are 13 reasons why she did what she did - and Clay is one of them. If he listens, Clay will find out how he made the list - what he hears will change his life forever.</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(5)" onmouseout="hideBookName(5)">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61fbVx3W5cL._AC_UF1000,1000_QL80_.jpg" alt="The Fault in our Stars by John Green">
+            <div class="novel-details">
+                <h2>The Fault in our Stars</h2>
+                <p>Author: John Green</p>
+                <p>Genre: Young Adult Fiction</p>
+                <p id="bookName2" class="hidden">The Fault in our Stars by John Green</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 308.00</p>
+                <button onclick="toggleDescription(5)">Read More</button>
+                <p class="hidden" id="description5">I fell in love the way you fall asleep: slowly, then all at once. Despite the tumour-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten. Insightful, bold, irreverent, and raw, The Fault in Our Stars brilliantly explores the funny, thrilling, and tragic business of being alive and in love.</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(6)" onmouseout="hideBookName(6)">
+            <img src="https://www.crossword.in/cdn/shop/files/71QZPEdr2XL.jpg?v=1691755866" alt="Prom Theory by Ann LaBar">
+            <div class="novel-details">
+                <h2>Prom Theory</h2>
+                <p>Author: Ann LaBar</p>
+                <p>Genre: Young Adult Fiction</p>
+                <p id="bookName2" class="hidden">Prom Theory by Ann LaBar</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 210.00</p>
+                <button onclick="toggleDescription(6)">Read More</button>
+                <p class="hidden" id="description6">Iris Oxtabee has managed to navigate through her near-boring social life by reading everything from neuroscience journals to Wikipedia articles. Science has helped her fit the puzzle pieces into an understandable whole, and she’s sure there’s nothing it can’t explain. Love, for example - is just chemistry!
+                    Her best friend Seth believes love is one of life’s beautiful and chaotic mysteries, without need for explanation. But Iris being Iris, is hell bent on proving him wrong. She decides to test her theory on the popular and newly single Theo Grant, who doesn’t even know Iris exists. Armed with science and a plan, Iris is sure she can make him ask her to prom. With prom just two weeks away, Iris doesn’t have any time to waste. But will proving herself right cause her friendship with Seth—and the tantalizing possibility for something more—to become a failed experiment?</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(7)" onmouseout="hideBookName(7)">
+            <img src="https://m.media-amazon.com/images/I/718X1SWIsjL._AC_UF1000,1000_QL80_.jpg" alt="Harry Potter Boxed Set by J.K. Rowling">
+            <div class="novel-details">
+                <h2>Harry Potter Boxed Set</h2>
+                <p>Author: J.K. Rowling</p>
+                <p>Genre: Fantasy</p>
+                <p id="bookName2" class="hidden">Harry Potter Boxed Set by J.K. Rowling</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 3218.00</p>
+                <button onclick="toggleDescription(7)">Read More</button>
+                <p class="hidden" id="description7">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).</p>
+            </div>
+        </section>
+
+        <section class="novel" onmouseover="showBookName(8)" onmouseout="hideBookName(8)">
+            <img src="https://m.media-amazon.com/images/I/81e9hc-iu7L._SY466_.jpg" alt="Hunger Games Boxed Set by Suzanne Collins">
+            <div class="novel-details">
+                <h2>Hunger Games Boxed Set</h2>
+                <p>Author: Suzanne Collins</p>
+                <p>Genre: Apocalyptic and Post-Apocalyptic Fiction</p>
+                <p id="bookName2" class="hidden">Hunger Games Boxed Set by Suzanne Collins</p>
+                <p class="price">Price: <span class="currency" id="currency2">INR</span> 25952.00</p>
+                <button onclick="toggleDescription(8)">Read More</button>
+                <p class="hidden" id="description8">In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV... And the odds are against all who play. With all four of Suzanne Collins's Hunger Games novels in one box set, you can step into the world of Panem with the 10th annual Hunger Games, and continue all the way to the electrifying conclusion.</p>
+            </div>
+        </section>
+        <!-- Add more novel sections as needed -->
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
